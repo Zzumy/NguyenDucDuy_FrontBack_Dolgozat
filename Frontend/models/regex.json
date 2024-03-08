@@ -1,0 +1,24 @@
+{
+    "name": {
+        "name": "Name",
+        "type": "text",
+        "placeholder": "Your Name",
+        "value": "",
+        "attr": {
+            "regex": "^[A-Z][a-zA-Z ]*$",
+            "required": true
+        },
+        "accept": "",
+        "refuse": "Name should start with a Capital letter"
+    },
+    "born": {
+        "name": "Date of Birth",
+        "type": "date",
+        "attr": {
+            "min": "1920-01-01",
+            "max": "2023-12-31"
+        },
+        "accept": "",
+        "refuse": ""
+    }
+}

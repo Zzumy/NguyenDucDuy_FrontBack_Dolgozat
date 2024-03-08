@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+nav,
+#list {
+    border-radius: 6px;
+}
+
+#input {
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+}
+
+.edit,
+.delete,
+.send,
+.megse {
+    cursor: pointer;
+}
+
+.edit:hover {
+    background-color: rgb(25, 135, 84);
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.delete:hover {
+    background-color: rgb(187, 45, 59);
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.send:hover,
+.megse:hover {
+    background-color: rgb(13, 110, 253);
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+td,
+th {
+    text-align: center;
+}
+
+.nav-item {
+    text-align: center;
+    padding: 6px;
+}
+
+.nav-item:hover {
+    background-color: rgb(11, 94, 215);
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+ul {
+    margin: auto;
+}
